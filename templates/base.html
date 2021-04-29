@@ -1,0 +1,14 @@
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - PyImageKeras</title>
+      {% else %}
+      <title>Welcome to PyImageKeras</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>PyImageKeras: <a href="/index">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
