@@ -1,0 +1,25 @@
+Configuring and installing Redis for our Keras REST API
+
+Redis is very easy to install. Below you’ll find the commands to download, extract, and install Redis on your system:
+→ Launch Jupyter Notebook on Google Colab
+A scalable Keras + deep learning REST API Outline
+$ wget http://download.redis.io/redis-stable.tar.gz
+$ tar xvzf redis-stable.tar.gz
+$ cd redis-stable
+$ make
+$ sudo make install
+
+To start the Redis server, use the following command:
+→ Launch Jupyter Notebook on Google Colab
+A scalable Keras + deep learning REST API Outline
+$ redis-server
+
+Leave this terminal open to keep the Redis data store running.
+
+In another terminal, you can validate Redis is up and running:
+→ Launch Jupyter Notebook on Google Colab
+A scalable Keras + deep learning REST API Outline
+$ redis-cli ping
+PONG
+
+(https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/)
