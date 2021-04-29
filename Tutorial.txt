@@ -1,1 +1,5 @@
 https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
+
+Fehlerbehebung:
+!!! base64.decodestring ist jetzt base64.decodebytes  !!!
+https://bugs.archlinux.org/task/69545
